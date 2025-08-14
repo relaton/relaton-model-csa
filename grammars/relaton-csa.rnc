@@ -4,14 +4,5 @@ include "biblio-standoc.rnc" {
     "guidance" | "proposal" | "standard" | "report" | "whitepaper" | "charter" | "policy" |
     "glossary" | "case-study"
 
-  editorialgroup = element editorialgroup {
-    technical-committee+
-  }
-
-  technical-committee = element committee {
-    attribute type { text }?,
-    text
-  }
-
 }
 
